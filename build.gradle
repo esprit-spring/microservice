@@ -1,0 +1,25 @@
+//Run the web application with:  gradle run -DmainClass=com.apress.isf.spring.HelloWorldController
+
+apply plugin: 'java'
+apply plugin: "application"
+
+mainClassName = System.getProperty("mainClass")
+
+group = 'com.apress.isf'
+version = '1.0'
+
+repositories {
+ 	mavenCentral()
+}
+
+dependencies {
+ 	compile 'org.springframework:spring-context:4.0.5.RELEASE'
+ 	compile 'org.springframework.boot:spring-boot-starter-web:1.1.1.RELEASE'
+}
+
+/*
+test {
+ 	testLogging {
+	 	events 'started', 'passed'
+ 	}
+}*/
