@@ -1,7 +1,11 @@
 //Run the web application with:  gradle run -DmainClass=com.apress.isf.spring.HelloWorldController
+//Pour eclipse STS, il faudra installer le plugin gradle "buildship" que l'on trouve dans "eclipse marketplace"
 
 apply plugin: 'java'
 apply plugin: "application"
+apply plugin: "eclipse"
+apply plugin: "groovy"
+
 
 mainClassName = System.getProperty("mainClass")
 
