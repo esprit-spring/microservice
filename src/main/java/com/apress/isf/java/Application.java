@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.apress.isf.spring;
+package com.apress.isf.java;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -9,13 +6,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * @author Felipe Gutierrez
- *
- */
 //Pour lancer cette classe et afficher le hello world : run -DmainClass=com.apress.isf.spring.Application
-@Configuration
-@ComponentScan({"com.apress.isf.spring"})
+//@Configuration
+//@ComponentScan({"com.apress.isf.spring"})
 public class Application {
 	
 	//@Bean

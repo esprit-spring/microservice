@@ -1,14 +1,7 @@
-/**
- * 
- */
-package com.apress.isf.spring;
+package com.apress.isf.java;
 
 import org.springframework.stereotype.Component;
 
-/**
- * @author Felipe Gutierrez
- *
- */
 @Component
 public class HelloWorldMessage implements MessageService {
 	

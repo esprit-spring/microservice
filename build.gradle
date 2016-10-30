@@ -1,14 +1,8 @@
 //Pour eclipse STS, il est conseille d'installer le plugin gradle "buildship"
-//mainClassName = System.getProperty("mainClass") // Si vous voulez passer la main class dans la variable d'environnement
+//gradle clean test
 
 apply plugin: 'java'
 apply plugin: "application"
-
-//Pour lancer une simple application java spring
-mainClassName = "com.apress.isf.spring.Application"
-
-//Pour lancer SpringBoot
-//mainClassName = "com.apress.isf.springboot.HelloWorldController"
 
 group = 'com.apress.isf'
 version = '1.0'
@@ -20,4 +14,5 @@ repositories {
 dependencies {
  	compile 'org.springframework:spring-context:4.0.5.RELEASE'
  	compile 'org.springframework.boot:spring-boot-starter-web:1.1.1.RELEASE'
+ 	testCompile 'junit:junit:4.11'
 }
