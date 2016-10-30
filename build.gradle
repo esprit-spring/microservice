@@ -1,14 +1,14 @@
-//Pour eclipse STS, il est conseillé d'installer le plugin gradle "buildship"
+//Pour eclipse STS, il est conseille d'installer le plugin gradle "buildship"
 //mainClassName = System.getProperty("mainClass") // Si vous voulez passer la main class dans la variable d'environnement
 
 apply plugin: 'java'
 apply plugin: "application"
 
 //Pour lancer une simple application java spring
-//mainClassName = "com.apress.isf.spring.Application"
+mainClassName = "com.apress.isf.spring.Application"
 
 //Pour lancer SpringBoot
-mainClassName = "com.apress.isf.springboot.HelloWorldController"
+//mainClassName = "com.apress.isf.springboot.HelloWorldController"
 
 group = 'com.apress.isf'
 version = '1.0'
